@@ -1,7 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukesh Bedval - Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        .profile-name {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        main {
+            padding: 3rem 0;
+        }
+        section {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background-color: #3498db;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .social-links a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
 <body>
-<h1>Mukesh Bedval</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <div class="container">
+            <h1 class="profile-name">Mukesh Bedval</h1>
+            <p class="tagline">Software Developer & Technology Enthusiast</p>
+            <div class="social-links">
+                <a href="https://github.com/mbedval" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/mukesh-bedval" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my personal website! I'm passionate about technology and software development. This space showcases my work and professional journey.</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <p>Check out my GitHub profile to see my latest projects and contributions.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to connect with me on LinkedIn or follow my work on GitHub.</p>
+        </section>
+    </main>
 </body>
 </html>
